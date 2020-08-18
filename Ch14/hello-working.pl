@@ -7,5 +7,5 @@ use BW::Simple;
 
 my $o = BW::Simple->new(47);
 
-my $x = $o->number;
-say "Hello, World! The number is $x";
+my $x = $o->string;
+say $x;

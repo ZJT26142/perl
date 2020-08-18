@@ -8,7 +8,7 @@ use warnings;
 our $VERSION = "1.0";
 
 sub new {
-    my $inv = shift;
+    my $inv = shift; #invocation
     my $class = ref($inv) || $inv;
 
     my $self = {};
