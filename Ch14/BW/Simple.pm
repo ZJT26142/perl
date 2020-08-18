@@ -7,7 +7,7 @@ use warnings;
 
 our $VERSION = "1.0";
 
-sub new {
+sub new { # constructor
     my $inv = shift;
     my $class = ref($inv) || $inv;
 
